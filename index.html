@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuizMaster</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+
+    <!-- Link to external stylesheets -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head> 
+  <body>
+    <!-- Main Quiz Container -->
+    <div class="quiz-container">
+     
+      <!-- Question Navigation (hidden by default) -->
+      <div id="question-navigation" class="hidden"></div>
+
+      <!-- Quiz Header Section -->
+      <div class="quiz-header">
+        <!-- Quiz Title with Icon -->
+        <div class="styled-title-container">
+          <h1 class="styled-title">
+              <i class="fas fa-trophy"></i> Quiz-Master
+          </h1>
+        </div>
+
+        <!-- Button to Start the Quiz -->
+        <div class="button-container">
+          <button id="start-quiz">Start Quiz</button>
+        </div>
+
+        <!-- Quiz Settings for Category and Difficulty -->
+        <div id="quiz-settings">
+          <!-- Dropdown for selecting quiz category -->
+          <label for="category-select"><h3>Category:</h3></label>
+          <select id="category-select">
+            <option value="21">Sports</option>
+            <option value="9">General Knowledge</option>
+            <option value="11">Movies</option>
+            <option value="12">Music</option>
+            <option value="18">Computers</option>
+            <option value="23">History</option>
+          </select>
+
+          <!-- Dropdown for selecting quiz difficulty -->
+          <label for="difficulty-select"><h3>Difficulty:</h3></label>
+          <select id="difficulty-select">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+        </div>
+      </div>
+      
+      <!-- Quiz Content Section (hidden by default) -->
+      <div id="quiz-content" class="hidden">
+        <!-- Container for displaying the current question -->
+        <div id="question-container"></div>
+        <!-- Container for displaying the answer options -->
+        <div id="options-container"></div>
+        
+        <!-- Quiz Footer with Navigation and Control Buttons -->
+        <div id="quiz-footer">
+            <button id="prev-question">Previous</button>
+            <div id="progress"></div>
+            <button id="next-question">Next</button>
+            <button id="submit-quiz" class="hidden">Submit</button>
+        </div>
+        
+        <!-- Timer Section (hidden by default) -->
+        <div id="timer" class="hidden"></div>
+        <!-- Current Score Section (hidden by default) -->
+        <div id="current-score" class="hidden">
+          <h3>Current Score: <span id="current-score-value">0</span></h3>
+        </div>
+      </div>
+
+      <!-- Results Section (hidden by default) -->
+      <div id="results" class="hidden">
+        <h2 class="score-title">Your Score:</h2>
+        <div id="score" class="score-summary">
+          <span id="current-score-value">0</span> out of <span id="total-questions">10</span>
+        </div>
+        <!-- Button to download scorecard (hidden by default) -->
+        <button id="download-scorecard" class="hidden">Download Scorecard</button>
+        <!-- Button to retry the quiz -->
+        <button id="retry-quiz">Retry Quiz</button>
+      </div>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="quiz.js"></script>
+  </body>
+</html>
