@@ -44,14 +44,16 @@ Quiz-Master is an interactive quiz application built using HTML, CSS, and Object
 
 ## Demo
 
+![Screenshot from 2024-08-23 20-26-21](https://github.com/user-attachments/assets/49620772-e9f2-462e-ad3a-821f7a3c39ca)
 
-![Screenshot from 2024-08-23 20-26-21](https://github.com/user-attachments/assets/633fe062-1a8e-4426-980b-84824c148591)
+![Screenshot from 2024-08-23 20-26-42](https://github.com/user-attachments/assets/9e7df95e-5f39-41e1-bd93-e1d66f9f0ff5)
 
-![Screenshot from 2024-08-23 20-26-42](https://github.com/user-attachments/assets/9230072c-c75f-4e7e-899a-feb2696b0b87)
+![Screenshot from 2024-08-23 20-27-53](https://github.com/user-attachments/assets/930ec017-1e00-4cce-b4bc-5e34ce318ed1)
 
-![Screenshot from 2024-08-23 20-28-09](https://github.com/user-attachments/assets/b181c148-01e0-4835-bee2-66d15f52e956)
+![Screenshot from 2024-08-23 20-29-05](https://github.com/user-attachments/assets/4d24958d-f574-4ae5-8fdd-6a40445c77cf)
 
-![Screenshot from 2024-08-23 20-29-05](https://github.com/user-attachments/assets/aa413d0c-3e83-4e5b-9211-fcc29b2f222b)
+![Screenshot from 2024-08-23 20-29-31](https://github.com/user-attachments/assets/f6c2d84d-bf09-413d-94a3-22c6844ff036)
 
-![Screenshot from 2024-08-23 20-29-31](https://github.com/user-attachments/assets/6b583732-c8df-4244-bf03-65ace5860a03)
+
+
 
